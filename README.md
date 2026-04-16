@@ -8,8 +8,6 @@ A foundational C++ framework for integrating the [GStreamer](https://gstreamer.f
 
 This project establishes the plugin architecture and core infrastructure needed to load and use GStreamer libraries at runtime inside an Unreal Engine 5 game module. The emphasis is on clean abstractions, runtime dynamic loading (no compile-time GStreamer dependency), and tight integration with UE5's logging and object systems.
 
-Originally developed as part of a UAV simulation pipeline (see [RosendroUE](https://github.com/Kiriql/RosendroUE)).
-
 **Status:** Foundational / Work in Progress — the infrastructure layer is complete; GStreamer pipeline logic is the intended next step.
 
 ## Features
